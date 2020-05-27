@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Racing+Sans+One|Faster+One|Bebas+Neue|Hind:wght|Marmelad|Scada|Concert+One|Stardos+Stencil:wght@700&display=swap");
+.AllCountriesScore_CSS {
+  width: 70%;
+  height: fit-content;
+}
+.P_Title_CSS {
+  font-family: "Concert One", cursive;
+  padding: 10px 20px;
+  background-color: #1e88e5;
+  color: #eeeeee;
+  border-radius: 3px;
+  font-size: 20px;
+  letter-spacing: 5px;
+  box-shadow: 0px 0px 5px 0.1px #797979;
+}
+.Div_Country_CSS {
+  margin: auto;
+  margin-bottom: 10px;
+  width: 90%;
+  background-color: #e7e7e7;
+  border-radius: 3px;
+}
+.P_Country_CSS {
+  font-family: "Scada", sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 10px;
+  letter-spacing: 3px;
+  font-size: 17px;
+  color: #ffffff;
+  background-color: #00acc1;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.Div_NameAndScore_CSS {
+  background-color: #e7e7e7;
+}
+.Div_NameAndScore_CSS:last-child {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.Div_Parent_CSS {
+  display: flex;
+  height: fit-content;
+  font-family: "Concert One", cursive;
+  height: 40px;
+}
+.P_Name_CSS {
+  padding: 5px;
+  width: 70%;
+  margin: 0px;
+  text-align: left;
+  text-indent: 70px;
+}
+.P_Score_CSS {
+    color: #e84118;
+  padding: 5px;
+  margin: 0px;
+  width: 30%;
+  text-indent: 0px;
+  text-align: left;
+}
