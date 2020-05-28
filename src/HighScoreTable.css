@@ -5,33 +5,32 @@
 }
 .Div_Title_CSS{
   width: 100%;
+  margin-top: 20px;
+  border-radius: 3px;
+  height: 50px;
   display: flex;
   align-items: center;
+  background-color: #1e88e5;
 }
 .fas{
   color: #e7e7e7;
-  background-color: #1e88e5;
   padding: 12px 20px;
   font-size: 22px;
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
   transition: 200ms;
 }
 
 .fas:hover{
-  color: #f9ca24;
+  color: #fffa65;
   cursor: pointer;
 }
 .P_Title_CSS {
   width: 90%;
   font-family: "Concert One", cursive;
-  padding: 10px 20px;
-  background-color: #1e88e5;
+  padding: 10px 20px;  
   color: #eeeeee;
-  border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px;
   font-size: 22px;
-  letter-spacing: 5px;  
+  letter-spacing: 3px;  
+  text-indent: 20px;
 }
 .Div_Country_CSS {
   margin: auto;
@@ -44,7 +43,7 @@
   font-family: "Scada", sans-serif;
   font-weight: bold;
   padding: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   letter-spacing: 3px;
   font-size: 17px;
   color: #ffffff;
@@ -61,9 +60,13 @@
 }
 .Div_Parent_CSS {
   display: flex;
+  align-items: center;
   height: fit-content;
   font-family: "Concert One", cursive;
   height: 40px;
+}
+.Div_Parent_CSS:hover{
+  background-color: #dadada;
 }
 .P_Name_CSS {
   font-size: 18px;
