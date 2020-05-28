@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Scores from './Scores.js'
 import HighScoreTable from './HighScoreTable.js'

@@ -3,15 +3,35 @@
   width: 70%;
   height: fit-content;
 }
+.Div_Title_CSS{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.fas{
+  color: #e7e7e7;
+  background-color: #1e88e5;
+  padding: 12px 20px;
+  font-size: 22px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  transition: 200ms;
+}
+
+.fas:hover{
+  color: #f9ca24;
+  cursor: pointer;
+}
 .P_Title_CSS {
+  width: 90%;
   font-family: "Concert One", cursive;
   padding: 10px 20px;
   background-color: #1e88e5;
   color: #eeeeee;
-  border-radius: 3px;
-  font-size: 20px;
-  letter-spacing: 5px;
-  box-shadow: 0px 0px 5px 0.1px #797979;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  font-size: 22px;
+  letter-spacing: 5px;  
 }
 .Div_Country_CSS {
   margin: auto;
@@ -46,7 +66,8 @@
   height: 40px;
 }
 .P_Name_CSS {
-  padding: 5px;
+  font-size: 18px;
+  padding: 3px;
   width: 70%;
   margin: 0px;
   text-align: left;
